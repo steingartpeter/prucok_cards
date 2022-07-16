@@ -11,6 +11,18 @@
   overflow: hidden;
   animation: forgas 4s ease-in-out;
   animation-fill-mode: forwards;
+  background: url("../assets/cardBG.png");
+}
+.figure-cntnr {
+  background-image: url("../assets/barella.png");
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: bottom;
+  height: 100%;
+}
+.prucok-card:before {
+  opacity: 0.6;
 }
 .emblem {
   position: relative;
